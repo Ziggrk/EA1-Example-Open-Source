@@ -1,0 +1,44 @@
+{
+  "food-trucks": [
+    {
+      "id": 1,
+      "ownerFirstName": "William",
+      "ownerLastName": "Riega",
+      "brandName": "Healthy&Fast",
+      "email": "williammar954@hotmail.com",
+      "address": "Av.Juan Vicente Nicolini 560",
+      "websiteUrl": "-",
+      "menuUrl": "-"
+    },
+    {
+      "id": 2,
+      "ownerFirstName": "Ana Lucia",
+      "ownerLastName": "Riega",
+      "brandName": "Ludama Cupcakes",
+      "email": "alucia@hotmail.com",
+      "address": "Av. Las Palmas 543",
+      "websiteUrl": "https://www.instagram.com/ludamacupcakes/",
+      "menuUrl": "https://www.instagram.com/ludamacupcakes/"
+    },
+    {
+      "id": 3,
+      "ownerFirstName": "Lucy",
+      "ownerLastName": "Ocharan",
+      "brandName": "FoodyFoofy",
+      "email": "lucy_op@hotmail.com",
+      "address": "Av. San Lorenzo 350 Habich",
+      "websiteUrl": "-",
+      "menuUrl": "-"
+    },
+    {
+      "id": 4,
+      "ownerFirstName": "Willy",
+      "ownerLastName": "Torres",
+      "brandName": "Sanguchon",
+      "email": "willra3@hotmail.com",
+      "address": "Av. Peru 124 Lote A",
+      "websiteUrl": "https://www.fullsanguchon.pe/",
+      "menuUrl": "https://www.fullsanguchon.pe/pedir"
+    }
+  ]
+}
