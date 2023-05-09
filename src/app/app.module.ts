@@ -8,7 +8,7 @@ import { HomeComponent } from './home/pages/home/home.component';
 import { SignUpComponent } from './sign-up/pages/sign-up/sign-up.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
-import {MatFormFieldModule, MatLabel} from "@angular/material/form-field";
+import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatCardModule} from "@angular/material/card";
 import {MatIconModule} from "@angular/material/icon";
@@ -20,6 +20,7 @@ import { ToolbarComponent } from './shared/components/toolbar/toolbar.component'
 import {MatTableModule} from "@angular/material/table";
 import { EditComponent } from './edit/pages/edit/edit.component';
 import {RouterModule} from "@angular/router";
+import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {RouterModule} from "@angular/router";
     SignUpComponent,
     TableComponent,
     ToolbarComponent,
-    EditComponent
+    EditComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

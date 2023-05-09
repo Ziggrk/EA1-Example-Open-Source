@@ -1,0 +1,42 @@
+.not-found-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.not-found-header{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-content{
+  padding: 40px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-footer{
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error{
+  width: 100px;
+  height: 100px;
+  font-family: "Segoe UI Black";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: indigo;
+  font-size: 100px;
+}
+

@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FoodTrucks} from "../../../shared/model/food-trucks";
 import {EditService} from "../../services/edit.service";
 import {FormControl, Validators} from "@angular/forms";
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-edit',
@@ -27,7 +27,7 @@ export class EditComponent implements OnInit{
   brandFormControl = new FormControl('', [Validators.required]);
   emailFormControl = new FormControl('', [Validators.required, Validators.email]);
 
-  constructor(private editService: EditService, private router: ActivatedRoute) {
+  constructor(private editService: EditService, private router: ActivatedRoute, private routes:Router) {
   }
 
   ngOnInit(){
@@ -59,6 +59,7 @@ export class EditComponent implements OnInit{
 
       this.editService.update(this.id, item).subscribe((response: any)=>{
         console.log(response);
+        this.routes.navigate(['/home']);
       });
     }
   }

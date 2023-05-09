@@ -49,6 +49,16 @@
       "address": "Av.  Santa Rosa de guadalupe 455",
       "websiteUrl": "-",
       "menuUrl": "-"
+    },
+    {
+      "id": 6,
+      "ownerFirstName": "Pedro",
+      "ownerLastName": "Perez",
+      "brandName": "ElMarino",
+      "email": "elmarino@hotmail.com",
+      "address": "Av. Peru 124 Lote A",
+      "websiteUrl": "-",
+      "menuUrl": "-"
     }
   ]
 }
