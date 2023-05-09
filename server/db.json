@@ -39,6 +39,16 @@
       "address": "Av. Peru 124 Lote A",
       "websiteUrl": "https://www.fullsanguchon.pe/",
       "menuUrl": "https://www.fullsanguchon.pe/pedir"
+    },
+    {
+      "id": 5,
+      "ownerFirstName": "Juana",
+      "ownerLastName": "Palacios",
+      "brandName": "JuanitasFritas",
+      "email": "juanaworrk@hotmail.com",
+      "address": "Av.  Santa Rosa de guadalupe 455",
+      "websiteUrl": "-",
+      "menuUrl": "-"
     }
   ]
 }
